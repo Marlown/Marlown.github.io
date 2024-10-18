@@ -52,7 +52,7 @@ document.querySelectorAll(".theme").forEach((theme) => {
         window.location.href = "Alimentation/alimentation.html";
         break;
       case "voyages-vacances":
-        window.location.href = "voyages-vacances/voyages-vacances.html";
+        window.location.href = "Voyages-vacances/voyages-vacances.html";
         break;
       case "celebrations-fetes":
         window.location.href = "celebration-fete/celebrations-fetes.html";
