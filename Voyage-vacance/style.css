@@ -1,0 +1,143 @@
+/* Ajout de l'image de fond marbrée avec des rayures dorées */
+body {
+  background: url('../images/Untitled-design-2.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #f0f0f0;  /* Blanc cassé pour le texte général pour un meilleur contraste avec le fond */
+  overflow-x: hidden;
+}
+
+/* Animation pour les rayures dorées */
+@keyframes golden-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Application de l'animation sur le body */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 215, 0, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 215, 0, 0.2) 50%, rgba(255, 215, 0, 0.2) 75%, transparent 75%, transparent);
+  background-size: 50px 50px;
+  animation: golden-stripes 5s linear infinite;
+  z-index: 1;
+  opacity: 0.05;  /* Légère augmentation de l'opacité pour améliorer la visibilité des rayures */
+}
+
+.question-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Style du titre */
+h1 {
+  font-size: 3.5em;  /* Taille augmentée pour un effet impactant */
+  color: gold;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);  /* Ombre plus forte pour un meilleur effet de contraste */
+  margin-bottom: 30px;
+}
+
+/* Style des questions */
+#question {
+  font-size: 2.5em;  /* Plus grand pour faciliter la lecture et donner un style plus majestueux */
+  margin-bottom: 25px;
+  color: #f0f0f0;  /* Blanc cassé pour un meilleur contraste */
+}
+
+/* Liste des réponses */
+ul#answers li {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: rgba(255, 215, 0, 0.15);
+  border: 2px solid gold;
+  border-radius: 15px;  /* Bords plus arrondis pour un style plus moderne */
+  transition: background-color 0.5s, transform 0.5s;
+  font-size: 1.8em;  /* Taille de police légèrement augmentée */
+  color: #f0f0f0;  /* Changement de la couleur du texte pour blanc cassé */
+}
+
+ul#answers li:hover {
+  background-color: rgba(255, 215, 0, 0.3);
+  transform: scale(1.08);  /* Animation de survol améliorée */
+  color: gold;  /* Changement de la couleur au survol pour un doré plus clair */
+}
+
+ul#answers li:hover {
+  background-color: rgba(255, 215, 0, 0.3);
+  transform: scale(1.08);  /* Animation de survol améliorée */
+}
+
+/* Minuteur */
+#timer {
+  font-size: 2em;  /* Taille légèrement augmentée pour une meilleure visibilité */
+  margin-top: 20px;
+  color: gold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Tableau des scores */
+#score-board {
+  margin-top: 30px;
+  font-size: 2em;
+  color: gold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#score-board p {
+  margin: 5px 0;
+}
+
+/* Bouton "Passer à la question suivante" */
+#next-question {
+  margin-top: 20px;
+  padding: 15px 30px;  /* Taille plus généreuse pour rendre le bouton plus confortable */
+  font-size: 1.5em;
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid gold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#next-question:hover {
+  background-color: rgba(255, 215, 0, 0.4);
+  transform: scale(1.1);  /* Augmentation de l'effet de survol pour plus d'interaction */
+}
+
+/* Style général des boutons */
+button {
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 1.8em;  /* Taille augmentée pour plus de lisibilité */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgba(255, 215, 0, 0.4);
+  transform: scale(1.1);
+}
+
+  
