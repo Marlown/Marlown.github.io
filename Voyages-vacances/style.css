@@ -1,6 +1,6 @@
 /* Ajout de l'image de fond marbrée avec des rayures dorées */
 body {
-  background: url('../images/Untitled-design-2.png') no-repeat center center fixed;
+  background: url('../images/marble-gold.jpeg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;

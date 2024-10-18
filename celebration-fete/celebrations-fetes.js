@@ -48,7 +48,57 @@ const questions = [
       { answer: "Dîner romantique", points: 5 },
     ],
   },
+  {
+    question: "Quels sont les plats typiques de Pâques ?",
+    answers: [
+      { answer: "Agneau rôti", points: 50 },
+      { answer: "Oeufs en chocolat", points: 30 },
+      { answer: "Tarte aux fruits", points: 10 },
+      { answer: "Salade de Pâques", points: 5 },
+    ],
+  },
+  {
+    question: "Quelle est la décoration phare pour Halloween ?",
+    answers: [
+      { answer: "Citrouille", points: 50 },
+      { answer: "Toiles d'araignée", points: 25 },
+      { answer: "Squelettes", points: 15 },
+      { answer: "Fantômes", points: 10 },
+      { answer: "Chauves-souris", points: 5 },
+    ],
+  },
+  {
+    question: "Quel est le meilleur cadeau pour la fête des mères ?",
+    answers: [
+      { answer: "Fleurs", points: 40 },
+      { answer: "Parfum", points: 30 },
+      { answer: "Bijoux", points: 15 },
+      { answer: "Carte personnalisée", points: 10 },
+      { answer: "Chocolats", points: 5 },
+    ],
+  },
+  {
+    question: "Quel type de musique est joué lors des fêtes de Noël ?",
+    answers: [
+      { answer: "Chants de Noël", points: 50 },
+      { answer: "Classique", points: 25 },
+      { answer: "Jazz", points: 15 },
+      { answer: "Pop", points: 5 },
+      { answer: "Rock", points: 5 },
+    ],
+  },
+  {
+    question: "Quelles sont les activités populaires lors des fêtes de fin d'année ?",
+    answers: [
+      { answer: "Repas de famille", points: 50 },
+      { answer: "Échange de cadeaux", points: 30 },
+      { answer: "Feux d'artifice", points: 10 },
+      { answer: "Décoration du sapin", points: 5 },
+      { answer: "Jeux de société", points: 5 },
+    ],
+  },
 ];
+
 
 let currentQuestionIndex = 0;
 let scoreA = 0;

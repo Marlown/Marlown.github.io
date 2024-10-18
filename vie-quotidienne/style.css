@@ -1,6 +1,6 @@
 /* Ajout de l'image de fond marbrée avec des rayures dorées */
 body {
-  background: url('../images/Untitled-design-2.png') no-repeat center center fixed;
+  background: url('../images/marble-gold.jpeg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -121,42 +121,6 @@ ul#answers li:hover {
   background-color: rgba(255, 215, 0, 0.4);
   transform: scale(1.1);  /* Augmentation de l'effet de survol pour plus d'interaction */
 }
-/* Styles pour la page d'accueil */
-
-/* Style général des thèmes (avant désactivation) */
-.theme {
-  background-color: rgba(0, 0, 0, 0.7); /* Fond sombre */
-  color: gold; /* Texte en or */
-  border: 2px solid gold;
-  padding: 20px;
-  margin: 10px;
-  font-size: 1.5em; /* Taille de la police augmentée */
-  width: 200px;
-  text-align: center;
-  border-radius: 10px;
-  transition: transform 0.3s, background-color 0.3s; /* Transition pour l'effet de survol */
-  cursor: pointer;
-}
-
-/* Effet de survol pour les thèmes actifs */
-.theme:hover {
-  transform: scale(1.05); /* Augmente légèrement la taille au survol */
-  background-color: rgba(255, 215, 0, 0.2); /* Légère couleur dorée */
-}
-
-/* Style pour les thèmes désactivés (grisés et non-cliquables) */
-.disabled {
-  background-color: rgba(169, 169, 169, 0.7); /* Fond gris pour indiquer qu'il est désactivé */
-  color: #b3b3b3; /* Texte plus clair pour indiquer qu'il est inactif */
-  border-color: #b3b3b3; /* Bordure grise */
-  cursor: not-allowed; /* Curseur non autorisé */
-}
-
-/* Désactivation des effets de survol pour les thèmes désactivés */
-.disabled:hover {
-  transform: none; /* Pas d'effet de zoom au survol */
-  background-color: rgba(169, 169, 169, 0.7); /* Le fond reste gris */
-}
 
 /* Style général des boutons */
 button {
@@ -175,4 +139,3 @@ button:hover {
   background-color: rgba(255, 215, 0, 0.4);
   transform: scale(1.1);
 }
-

@@ -51,6 +51,58 @@ const questions = [
       { answer: "Sortir au parc", points: 5 },
     ],
   },
+  {
+    question:
+      "Quelle est la première chose que vous faites en arrivant chez vous ?",
+    answers: [
+      { answer: "Se détendre", points: 40 },
+      { answer: "Manger", points: 25 },
+      { answer: "Se changer", points: 15 },
+      { answer: "Regarder la télévision", points: 10 },
+      { answer: "Vérifier son téléphone", points: 5 },
+    ],
+  },
+  {
+    question: "Quelles sont les activités familiales lors d'un week-end ?",
+    answers: [
+      { answer: "Faire une balade", points: 40 },
+      { answer: "Aller au cinéma", points: 30 },
+      { answer: "Faire un barbecue", points: 15 },
+      { answer: "Visiter des proches", points: 10 },
+      { answer: "Aller au parc", points: 5 },
+    ],
+  },
+  {
+    question: "Quel est le meilleur moment pour des retrouvailles familiales ?",
+    answers: [
+      { answer: "Vacances d'été", points: 40 },
+      { answer: "Noël", points: 30 },
+      { answer: "Anniversaire", points: 15 },
+      { answer: "Mariage", points: 10 },
+      { answer: "Fête de fin d'année", points: 5 },
+    ],
+  },
+  {
+    question: "Quel est l'animal de compagnie le plus populaire en famille ?",
+    answers: [
+      { answer: "Chien", points: 50 },
+      { answer: "Chat", points: 30 },
+      { answer: "Poisson rouge", points: 10 },
+      { answer: "Lapin", points: 5 },
+      { answer: "Oiseau", points: 5 },
+    ],
+  },
+  {
+    question:
+      "Quelle est l'occasion la plus importante pour faire une fête en famille ?",
+    answers: [
+      { answer: "Mariage", points: 50 },
+      { answer: "Naissance", points: 30 },
+      { answer: "Anniversaire", points: 15 },
+      { answer: "Réunion familiale", points: 10 },
+      { answer: "Fête de Noël", points: 5 },
+    ],
+  },
 ];
 
 let currentQuestionIndex = 0;

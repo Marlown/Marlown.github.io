@@ -59,6 +59,48 @@ const questions = [
       { answer: "Beurre", points: 5 },
     ],
   },
+  {
+    question: "Quel est le fromage français le plus célèbre ?",
+    answers: [
+      { answer: "Camembert", points: 50 },
+      { answer: "Roquefort", points: 30 },
+      { answer: "Brie", points: 15 },
+      { answer: "Comté", points: 10 },
+      { answer: "Chèvre", points: 5 },
+    ],
+  },
+  {
+    question:
+      "Quel plat est souvent associé à la cuisine française régionale ?",
+    answers: [
+      { answer: "Bouillabaisse", points: 50 },
+      { answer: "Quiche", points: 25 },
+      { answer: "Tartiflette", points: 15 },
+      { answer: "Coq au vin", points: 10 },
+      { answer: "Aligot", points: 5 },
+    ],
+  },
+  {
+    question: "Quel vin est le plus souvent consommé en France ?",
+    answers: [
+      { answer: "Vin rouge", points: 50 },
+      { answer: "Vin blanc", points: 25 },
+      { answer: "Champagne", points: 15 },
+      { answer: "Rosé", points: 10 },
+      { answer: "Vin mousseux", points: 5 },
+    ],
+  },
+  {
+    question:
+      "Quel dessert français est particulièrement populaire pendant Noël ?",
+    answers: [
+      { answer: "Bûche de Noël", points: 50 },
+      { answer: "Galette des rois", points: 25 },
+      { answer: "Mille-feuille", points: 15 },
+      { answer: "Macarons", points: 10 },
+      { answer: "Clafoutis", points: 5 },
+    ],
+  },
 ];
 
 let currentQuestionIndex = 0;

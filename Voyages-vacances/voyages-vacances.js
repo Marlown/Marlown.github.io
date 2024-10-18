@@ -1,103 +1,104 @@
 const questions = [
   {
-    question: "Quels sont les types de films les plus populaires ?",
+    question:
+      "Quel est le moyen de transport le plus utilisé pour partir en vacances ?",
     answers: [
-      { answer: "Comédie", points: 40 },
-      { answer: "Action", points: 30 },
-      { answer: "Science-fiction", points: 15 },
-      { answer: "Drame", points: 10 },
-      { answer: "Horreur", points: 5 },
+      { answer: "Voiture", points: 50 },
+      { answer: "Avion", points: 30 },
+      { answer: "Train", points: 15 },
+      { answer: "Bus", points: 5 },
+      { answer: "Bateau", points: 5 },
     ],
   },
   {
-    question: "Quel est le loisir préféré des Français ?",
+    question: "Quelle est la destination de vacances préférée des Français ?",
     answers: [
-      { answer: "Regarder la télévision", points: 40 },
-      { answer: "Faire du sport", points: 30 },
-      { answer: "Lire", points: 15 },
-      { answer: "Jouer aux jeux vidéo", points: 10 },
-      { answer: "Faire du shopping", points: 5 },
+      { answer: "Côte d'Azur", points: 40 },
+      { answer: "Corse", points: 30 },
+      { answer: "Bretagne", points: 20 },
+      { answer: "Paris", points: 5 },
+      { answer: "Alpes", points: 5 },
     ],
   },
   {
-    question: "Quels sont les jeux de société les plus populaires ?",
+    question: "Que prenez-vous toujours dans votre valise pour les vacances ?",
     answers: [
-      { answer: "Monopoly", points: 40 },
-      { answer: "Scrabble", points: 25 },
-      { answer: "Uno", points: 20 },
-      { answer: "Trivial Pursuit", points: 10 },
-      { answer: "Risk", points: 5 },
+      { answer: "Vêtements", points: 50 },
+      { answer: "Maillot de bain", points: 30 },
+      { answer: "Trousse de toilette", points: 10 },
+      { answer: "Chaussures", points: 5 },
+      { answer: "Chargeur de téléphone", points: 5 },
     ],
   },
   {
-    question: "Quels sont les sports les plus regardés à la télévision ?",
+    question: "Quelles activités faites-vous souvent à la plage ?",
     answers: [
-      { answer: "Football", points: 50 },
-      { answer: "Rugby", points: 25 },
-      { answer: "Tennis", points: 15 },
-      { answer: "Cyclisme", points: 10 },
-      { answer: "Basketball", points: 5 },
+      { answer: "Nager", points: 40 },
+      { answer: "Bronzer", points: 30 },
+      { answer: "Lire un livre", points: 15 },
+      { answer: "Faire du sport", points: 10 },
+      { answer: "Construire des châteaux de sable", points: 5 },
     ],
   },
   {
-    question: "Quels sont les genres de musique les plus populaires ?",
+    question: "Quels pays sont connus pour leurs plages paradisiaques ?",
     answers: [
-      { answer: "Pop", points: 40 },
-      { answer: "Rap", points: 30 },
-      { answer: "Rock", points: 15 },
-      { answer: "Jazz", points: 10 },
-      { answer: "Musique classique", points: 5 },
+      { answer: "Maldives", points: 50 },
+      { answer: "Thaïlande", points: 25 },
+      { answer: "Seychelles", points: 15 },
+      { answer: "Mexique", points: 10 },
+      { answer: "Grèce", points: 5 },
     ],
   },
   {
-    question: "Quels sont les instruments de musique les plus populaires ?",
+    question: "Quelles activités faites-vous à la montagne ?",
     answers: [
-      { answer: "Guitare", points: 40 },
-      { answer: "Piano", points: 30 },
-      { answer: "Batterie", points: 15 },
-      { answer: "Violoncelle", points: 10 },
-      { answer: "Saxophone", points: 5 },
+      { answer: "Ski", points: 50 },
+      { answer: "Randonnée", points: 30 },
+      { answer: "Snowboard", points: 10 },
+      { answer: "Escalade", points: 5 },
+      { answer: "VTT", points: 5 },
     ],
   },
   {
-    question: "Quels sont les jeux vidéo les plus populaires en France ?",
+    question: "Quel est le premier réflexe après avoir réservé un hôtel ?",
     answers: [
-      { answer: "FIFA", points: 40 },
-      { answer: "Call of Duty", points: 30 },
-      { answer: "Fortnite", points: 15 },
-      { answer: "Minecraft", points: 10 },
-      { answer: "League of Legends", points: 5 },
+      { answer: "Vérifier les horaires", points: 40 },
+      { answer: "Préparer ses bagages", points: 30 },
+      { answer: "Planifier les activités", points: 15 },
+      { answer: "Imprimer la réservation", points: 10 },
+      { answer: "Vérifier la météo", points: 5 },
     ],
   },
   {
-    question: "Quels sont les spectacles les plus appréciés en France ?",
+    question: "Quel accessoire de voyage est indispensable ?",
     answers: [
-      { answer: "Comédies musicales", points: 40 },
-      { answer: "Concerts", points: 30 },
-      { answer: "Pièces de théâtre", points: 15 },
-      { answer: "Spectacles humoristiques", points: 10 },
-      { answer: "Opéra", points: 5 },
+      { answer: "Passeport", points: 50 },
+      { answer: "Valise", points: 30 },
+      { answer: "Oreiller de voyage", points: 10 },
+      { answer: "Lunettes de soleil", points: 5 },
+      { answer: "Bouteille d'eau", points: 5 },
     ],
   },
   {
     question:
-      "Quelles sont les activités les plus populaires dans les parcs d'attractions ?",
+      "Que faites-vous souvent dans un avion pendant un vol long-courrier ?",
     answers: [
-      { answer: "Montagnes russes", points: 40 },
-      { answer: "Carrousels", points: 30 },
-      { answer: "Spectacles", points: 15 },
-      { answer: "Jeux d'adresse", points: 10 },
-      { answer: "Maisons hantées", points: 5 },
+      { answer: "Regarder des films", points: 40 },
+      { answer: "Dormir", points: 30 },
+      { answer: "Lire", points: 15 },
+      { answer: "Écouter de la musique", points: 10 },
+      { answer: "Manger", points: 5 },
     ],
   },
   {
-    question: "Quels sont les événements sportifs les plus suivis en France ?",
+    question: "Quels documents sont indispensables pour voyager à l'étranger ?",
     answers: [
-      { answer: "Coupe du Monde de football", points: 50 },
-      { answer: "Tour de France", points: 25 },
-      { answer: "Roland-Garros", points: 15 },
-      { answer: "Jeux Olympiques", points: 10 },
-      { answer: "Rugby World Cup", points: 5 },
+      { answer: "Passeport", points: 50 },
+      { answer: "Visa", points: 25 },
+      { answer: "Billet d'avion", points: 15 },
+      { answer: "Assurance de voyage", points: 5 },
+      { answer: "Carte d'identité", points: 5 },
     ],
   },
 ];
@@ -140,7 +141,7 @@ function displayQuestion() {
 
   currentQuestion.answers.forEach((answerObj, index) => {
     let li = document.createElement("li");
-    li.innerText = "Réponse cachée"; // Masquer les réponses au départ
+    li.innerText = "Réponse"; // Masquer les réponses au départ
     li.id = "answer-" + index; // Donner un identifiant unique à chaque réponse
 
     // Ajouter un événement au clic pour révéler la réponse et jouer le son
@@ -201,14 +202,14 @@ function disableThemeOnReturn(themeId) {
 }
 // Fonction pour marquer le thème comme terminé et rediriger vers l'accueil
 function finishGame() {
-  // Marquer le thème "Vie quotidienne" comme joué
-  localStorage.setItem("divertissement", "played"); // Sauvegarder dans le localStorage
-  disableThemeOnReturn("divertissement");
+  // Marquer le thème "Vie-quotidienne" comme joué
+  localStorage.setItem("voyages-vacances", "played"); // Sauvegarder dans le localStorage
+  disableThemeOnReturn("voyages-vacances");
   // Message de fin et redirection vers la page d'accueil
   alert("Thème terminé ! Vous allez être redirigé vers l'accueil.");
   setTimeout(function () {
     window.location.href = "../index.html"; // Redirection vers la page d'accueil
-  }, 3000); // Attente de 3 secondes avant la redirection
+  }, 1000); // Attente de 3 secondes avant la redirection
 }
 
 // Gestion du bouton "Passer à la question suivante"

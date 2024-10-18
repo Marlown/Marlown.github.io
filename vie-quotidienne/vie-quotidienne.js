@@ -1,103 +1,106 @@
 const questions = [
   {
-    question: "Quels sont les types de films les plus populaires ?",
+    question:
+      "Quel est le premier geste que vous faites le matin en vous réveillant ?",
     answers: [
-      { answer: "Comédie", points: 40 },
-      { answer: "Action", points: 30 },
-      { answer: "Science-fiction", points: 15 },
-      { answer: "Drame", points: 10 },
-      { answer: "Horreur", points: 5 },
+      { answer: "Éteindre le réveil", points: 40 },
+      { answer: "Vérifier son téléphone", points: 30 },
+      { answer: "Se lever immédiatement", points: 15 },
+      { answer: "Boire de l'eau", points: 10 },
+      { answer: "S'étirer", points: 5 },
     ],
   },
   {
-    question: "Quel est le loisir préféré des Français ?",
+    question: "Que faites-vous généralement pendant votre pause déjeuner ?",
     answers: [
-      { answer: "Regarder la télévision", points: 40 },
-      { answer: "Faire du sport", points: 30 },
-      { answer: "Lire", points: 15 },
-      { answer: "Jouer aux jeux vidéo", points: 10 },
-      { answer: "Faire du shopping", points: 5 },
+      { answer: "Manger", points: 50 },
+      { answer: "Regarder des vidéos", points: 25 },
+      { answer: "Discuter avec des collègues", points: 15 },
+      { answer: "Marcher", points: 5 },
+      { answer: "Lire", points: 5 },
     ],
   },
   {
-    question: "Quels sont les jeux de société les plus populaires ?",
+    question: "Quelle tâche ménagère faites-vous le plus souvent ?",
     answers: [
-      { answer: "Monopoly", points: 40 },
-      { answer: "Scrabble", points: 25 },
-      { answer: "Uno", points: 20 },
-      { answer: "Trivial Pursuit", points: 10 },
-      { answer: "Risk", points: 5 },
+      { answer: "Faire la vaisselle", points: 50 },
+      { answer: "Passer l'aspirateur", points: 25 },
+      { answer: "Faire le lit", points: 15 },
+      { answer: "Faire la lessive", points: 5 },
+      { answer: "Ranger la maison", points: 5 },
     ],
   },
   {
-    question: "Quels sont les sports les plus regardés à la télévision ?",
+    question: "Comment vous rendez-vous généralement au travail ?",
     answers: [
-      { answer: "Football", points: 50 },
-      { answer: "Rugby", points: 25 },
-      { answer: "Tennis", points: 15 },
-      { answer: "Cyclisme", points: 10 },
-      { answer: "Basketball", points: 5 },
-    ],
-  },
-  {
-    question: "Quels sont les genres de musique les plus populaires ?",
-    answers: [
-      { answer: "Pop", points: 40 },
-      { answer: "Rap", points: 30 },
-      { answer: "Rock", points: 15 },
-      { answer: "Jazz", points: 10 },
-      { answer: "Musique classique", points: 5 },
-    ],
-  },
-  {
-    question: "Quels sont les instruments de musique les plus populaires ?",
-    answers: [
-      { answer: "Guitare", points: 40 },
-      { answer: "Piano", points: 30 },
-      { answer: "Batterie", points: 15 },
-      { answer: "Violoncelle", points: 10 },
-      { answer: "Saxophone", points: 5 },
-    ],
-  },
-  {
-    question: "Quels sont les jeux vidéo les plus populaires en France ?",
-    answers: [
-      { answer: "FIFA", points: 40 },
-      { answer: "Call of Duty", points: 30 },
-      { answer: "Fortnite", points: 15 },
-      { answer: "Minecraft", points: 10 },
-      { answer: "League of Legends", points: 5 },
-    ],
-  },
-  {
-    question: "Quels sont les spectacles les plus appréciés en France ?",
-    answers: [
-      { answer: "Comédies musicales", points: 40 },
-      { answer: "Concerts", points: 30 },
-      { answer: "Pièces de théâtre", points: 15 },
-      { answer: "Spectacles humoristiques", points: 10 },
-      { answer: "Opéra", points: 5 },
+      { answer: "Voiture", points: 40 },
+      { answer: "Transport en commun", points: 30 },
+      { answer: "À pied", points: 15 },
+      { answer: "Vélo", points: 10 },
+      { answer: "Trottinette", points: 5 },
     ],
   },
   {
     question:
-      "Quelles sont les activités les plus populaires dans les parcs d'attractions ?",
+      "Quel appareil électroménager utilisez-vous le plus souvent à la maison ?",
     answers: [
-      { answer: "Montagnes russes", points: 40 },
-      { answer: "Carrousels", points: 30 },
-      { answer: "Spectacles", points: 15 },
-      { answer: "Jeux d'adresse", points: 10 },
-      { answer: "Maisons hantées", points: 5 },
+      { answer: "Réfrigérateur", points: 50 },
+      { answer: "Four à micro-ondes", points: 30 },
+      { answer: "Lave-linge", points: 15 },
+      { answer: "Aspirateur", points: 5 },
+      { answer: "Bouilloire", points: 5 },
     ],
   },
   {
-    question: "Quels sont les événements sportifs les plus suivis en France ?",
+    question: "Quel repas cuisinez-vous le plus souvent en semaine ?",
     answers: [
-      { answer: "Coupe du Monde de football", points: 50 },
-      { answer: "Tour de France", points: 25 },
-      { answer: "Roland-Garros", points: 15 },
-      { answer: "Jeux Olympiques", points: 10 },
-      { answer: "Rugby World Cup", points: 5 },
+      { answer: "Pâtes", points: 40 },
+      { answer: "Riz", points: 30 },
+      { answer: "Sandwich", points: 15 },
+      { answer: "Salade", points: 10 },
+      { answer: "Soupe", points: 5 },
+    ],
+  },
+  {
+    question:
+      "Quelle activité faites-vous après le travail pour vous détendre ?",
+    answers: [
+      { answer: "Regarder la télévision", points: 40 },
+      { answer: "Lire un livre", points: 25 },
+      { answer: "Faire une sieste", points: 15 },
+      { answer: "Sortir marcher", points: 10 },
+      { answer: "Méditer", points: 5 },
+    ],
+  },
+  {
+    question: "Quel est votre rituel du soir avant de dormir ?",
+    answers: [
+      { answer: "Regarder la télévision", points: 40 },
+      { answer: "Lire un livre", points: 25 },
+      { answer: "Méditer", points: 15 },
+      { answer: "Prendre une douche", points: 10 },
+      { answer: "Boire un thé", points: 5 },
+    ],
+  },
+  {
+    question: "Quelle activité faites-vous le plus souvent le week-end ?",
+    answers: [
+      { answer: "Sortir avec des amis", points: 40 },
+      { answer: "Faire du sport", points: 30 },
+      { answer: "Regarder des films/séries", points: 20 },
+      { answer: "Faire les courses", points: 10 },
+      { answer: "Jardiner", points: 5 },
+    ],
+  },
+  {
+    question:
+      "Quel est votre moyen de transport préféré pour les trajets courts ?",
+    answers: [
+      { answer: "Voiture", points: 40 },
+      { answer: "Vélo", points: 30 },
+      { answer: "Scooter", points: 15 },
+      { answer: "À pied", points: 10 },
+      { answer: "Trottinette", points: 5 },
     ],
   },
 ];
@@ -140,7 +143,7 @@ function displayQuestion() {
 
   currentQuestion.answers.forEach((answerObj, index) => {
     let li = document.createElement("li");
-    li.innerText = "Réponse cachée"; // Masquer les réponses au départ
+    li.innerText = "Réponse"; // Masquer les réponses au départ
     li.id = "answer-" + index; // Donner un identifiant unique à chaque réponse
 
     // Ajouter un événement au clic pour révéler la réponse et jouer le son
@@ -201,14 +204,14 @@ function disableThemeOnReturn(themeId) {
 }
 // Fonction pour marquer le thème comme terminé et rediriger vers l'accueil
 function finishGame() {
-  // Marquer le thème "Vie quotidienne" comme joué
-  localStorage.setItem("divertissement", "played"); // Sauvegarder dans le localStorage
-  disableThemeOnReturn("divertissement");
+  // Marquer le thème "Vie-quotidienne" comme joué
+  localStorage.setItem("vie-quotidienne", "played"); // Sauvegarder dans le localStorage
+  disableThemeOnReturn("vie-quotidienne");
   // Message de fin et redirection vers la page d'accueil
   alert("Thème terminé ! Vous allez être redirigé vers l'accueil.");
   setTimeout(function () {
     window.location.href = "../index.html"; // Redirection vers la page d'accueil
-  }, 3000); // Attente de 3 secondes avant la redirection
+  }, 1000); // Attente de 3 secondes avant la redirection
 }
 
 // Gestion du bouton "Passer à la question suivante"
