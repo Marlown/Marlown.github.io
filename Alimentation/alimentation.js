@@ -145,17 +145,29 @@ function startTimer() {
     }
   }, 1000);
 }
+// Fonction pour désactiver le thème sur la page d'accueil
+function disableThemeOnReturn(themeId) {
+  // Récupérer le tableau des thèmes joués depuis le localStorage
+  let played = JSON.parse(localStorage.getItem("played")) || [];
 
+  // Ajouter le thème à la liste des thèmes joués s'il n'y est pas déjà
+  if (!played.includes(themeId)) {
+    played.push(themeId);
+  }
+
+  // Sauvegarder le tableau dans le localStorage
+  localStorage.setItem("played", JSON.stringify(played));
+}
 // Fonction pour marquer le thème comme terminé et rediriger vers l'accueil
 function finishGame() {
-  // Marquer le thème "Vie quotidienne" comme joué
-  localStorage.setItem("vie-quotidienne", "played"); // Sauvegarder dans le localStorage
-
+  // Marquer le thème "Vie-quotidienne" comme joué
+  localStorage.setItem("alimentation", "played"); // Sauvegarder dans le localStorage
+  disableThemeOnReturn("alimentation");
   // Message de fin et redirection vers la page d'accueil
   alert("Thème terminé ! Vous allez être redirigé vers l'accueil.");
   setTimeout(function () {
     window.location.href = "../index.html"; // Redirection vers la page d'accueil
-  }, 3000); // Attente de 3 secondes avant la redirection
+  }, 1000); // Attente de 3 secondes avant la redirection
 }
 
 // Gestion du bouton "Passer à la question suivante"
